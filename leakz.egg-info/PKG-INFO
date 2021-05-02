@@ -1,0 +1,38 @@
+Metadata-Version: 1.1
+Name: leakz
+Version: 1.3.2
+Summary: Python API wrapper for lea.kz
+Home-page: https://github.com/thehappydinoa/leakz
+Author: thehappydinoa
+Author-email: thehappydinoa@gmail.com
+License: MIT
+Description: leakz
+        =====
+        
+        Python API wrapper for `lea.kz <https://lea.kz/>`_
+        
+        Usage
+        =====
+        
+        .. code-block:: python
+          
+          import leakz
+        
+          print(leakz.leaked_mail("test@email.com"))
+        
+          print(leakz.password_from_hash("e6e7c0a347468dd5cc73712fa53861cb"))
+        
+          print(leakz.hashes_from_password("derrick09"))
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
